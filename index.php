@@ -32,7 +32,7 @@ try{
          */
         if (!isset($data['request'], $data['request']['command'], $data['session'], $data['session']['session_id'], $data['session']['message_id'], $data['session']['user_id'])) {
             /**
-             * Нет всех необходимых полей. Не понятно, что вернуть, поэтмоу возвращаем ничего.
+             * Нет всех необходимых полей. Не понятно, что вернуть, поэтому возвращаем ничего.
              */
             $result = json_encode([]);
         } else {
