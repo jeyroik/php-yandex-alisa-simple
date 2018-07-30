@@ -106,7 +106,7 @@ try{
     } else {
         $response = json_encode([
             'version' => '1.0',
-            'session' => [],
+            'session' => 'Error',
             'response' => [
                 'text' => 'Отсутствуют данные',
                 'tts' =>  'Отсутствуют данные'
